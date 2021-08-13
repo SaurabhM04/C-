@@ -38,29 +38,29 @@
 
 ******
 
-    #include<stdio.h>
-       	int S(int n){
-     		int sum=0;
-     		for(int i=1;i<=n;++i){
+  #include<stdio.h>
+      int S(int n){
+      int sum=0;
+      for(int i=1;i<=n;++i){
 			 
-     			if(i%2 == 1){
-     				sum = sum + i;
+     	if(i%2 == 1){
+     	sum = sum + i;
      				
-				 }
-				 else
-				 	sum = sum - i;
+	 }
+	 else
+	 sum = sum - i;
 				 
-               }
-                }
-	
-			 return sum;
-     		 }
-     		  main(){
-     		 	int n;
-     		 	scanf("%d",&n);
-     		 	printf("%d",S(n));
-			  
+            }
              }
+	
+	 return sum;
+        }
+     	  main(){
+          int n;
+     	  scanf("%d",&n);
+     	  printf("%d",S(n));
+			  
+          }
  ******
  
  //program to find out the greatest no among three no using ternary operator.
@@ -262,27 +262,7 @@
 	}
 	
 	********
-//#define R(x) x-1*x+1
-//i 0;
 
-//			
-//		
-//	int main(){
-//		int i=10;
-//		if(printf("%d",i)){
-//			i=sizeof(++i);
-//			printf("x");
-//			
-//		}
-//		printf("345\n456\r=3450");
-//		return 0;	
-//}
-//    int main(){
-//    	printf("%d",sizeof(float));
-//    	return 0;
-//	}
-
-******
 
      int main(){
      	int i,n, sum=0;
@@ -309,7 +289,7 @@
 			return 0;
 		}	
 		
-		//break
+               //break
 		int main(){
 			char operater;
 			int  s ,m;
@@ -348,50 +328,46 @@
     	return 0;
 	}
 	
-//	main(){
-//		int x, y = 5, z = 5;
-//		x=y==z;
-//		printf("%d",x);   // output = 1; as x=1=(y==z).
-//	}
+*********
 	
 #include<stdio.h>
-//#include<conio.h>
-//#define CUBE(a) (a*a*a)
-//int main()
-//{
-//	int n=2,r;
-//	r=81/CUBE(n+1);
-//	printf("%d",r);
-//
-////}
-//#include <stdio.h>
-//
-//
-//void area_circum(double radius, double *area, double *circum);
-//
-//int main(void) {
-//
-//    double radius, area, circum;
-//
-//    printf("Please enter the radius of the circle: ");
-//    scanf("%f", &radius);
-//
-//    area_circum(radius, area, circum);
-//
-//    printf("Area of circle : %0.4f\n", area);
-//
-//    return 0;
-//}
-//
-//
-//void area_circum(double radius, double *area, double *circum) {
-//    double PIE = 3.141;
-//
-//    double areaC = 0;
-//
-//    areaC = PIE * radius * radius;
-//}
-//	
+#include<conio.h>
+#define CUBE(a) (a*a*a)
+int main()
+{
+	int n=2,r;
+	r=81/CUBE(n+1);
+	printf("%d",r);
+
+}
+
+#include <stdio.h>
+
+void area_circum(double radius, double *area, double *circum);
+
+int main(void) {
+
+   double radius, area, circum;
+
+   printf("Please enter the radius of the circle: ");
+   scanf("%f", &radius);
+
+  area_circum(radius, area, circum);
+
+   printf("Area of circle : %0.4f\n", area);
+
+    return 0;
+}
+
+
+void area_circum(double radius, double *area, double *circum) {
+    double PIE = 3.141;
+
+    double areaC = 0;
+
+    areaC = PIE * radius * radius;
+}
+	
 	
 	
 
