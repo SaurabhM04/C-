@@ -393,3 +393,35 @@ Printf ("Average of array upto n<10 is %.2f", avg);
 
 return o;
 }
+
+    ******
+#include<stdio.h>
+int main()
+{    
+    int  w ,x,y ,z;
+    for (w = 0 ;w<=11 ;w ++)
+    {
+        for (x = 0; x<=2 ; x++)
+        {
+            printf("*");
+        }
+        for (y=0; y<= w;y++)
+        {
+            printf(" ");
+            
+        }
+        for (x = 0; x<=2 ; x++)
+        {
+            printf("*");
+        }
+        for (z=10; z >= w; z--)
+        {
+            printf(" ");
+        }
+          for ( x = 0; x<=2 ; x++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    printf("\n");
