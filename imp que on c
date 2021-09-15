@@ -372,7 +372,7 @@ void area_circum(double radius, double *area, double *circum) {
 	
 
 	// AVERAGE OF ARRAY
-	#include <stdio.h>
+#include <stdio.h>
 	 int main( )
 {
 
@@ -382,10 +382,10 @@ int sum= 0,i;
 
 float avg=0;
 
-for (i=0; i<10, i++)
+for(i=0; i<10, i++)
 
 {
-Sum + = arr[i];
+Sum += arr[i];
 }
 avg = (Float)sum/i;
 
